@@ -1,4 +1,4 @@
-const palindrome = (x) => {
+const isPalindrome = (x) => {
     if (x < 0) return false;
 
     const res = x.toString().split("").reverse().join("")
