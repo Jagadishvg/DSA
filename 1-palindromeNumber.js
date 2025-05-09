@@ -4,4 +4,4 @@ const isPalindrome = (x) => {
     const res = x.toString().split("").reverse().join("")
     return +res === x
 }
-console.log(palindrome(121))
+console.log(isPalindrome(121))
